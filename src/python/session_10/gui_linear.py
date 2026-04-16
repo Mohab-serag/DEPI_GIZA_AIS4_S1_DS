@@ -21,7 +21,7 @@ class SalaryPredApp:
             lbl = tk.Label(sidebar, text=project, bg="lightgrey", font=("Arial", 12), anchor="w")
             lbl.pack(fill=tk.X, padx=7, pady=7)
 
-        # Main section for salary prediction
+        ## Main section for salary prediction
         main_frame = tk.Frame(self.root)
         main_frame.pack(pady=20)
 
